@@ -1,0 +1,82 @@
+"*":
+  "*":
+    editor: {}
+    core: {}
+    "exception-reporting":
+      userId: "70fa3bae-fe6e-fa51-96a1-ffccaa4b9abd"
+    welcome:
+      showOnStartup: false
+    "atom-beautify": {}
+    "project-manager": {}
+    linter: {}
+    emmet: {}
+    "autocomplete-plus": {}
+    "*":
+      editor:
+        fontFamily: "Migu 1M"
+        fontSize: 13
+        showInvisibles: true
+        showIndentGuide: true
+        softWrap: true
+        scrollPastEnd: true
+      core:
+        followSymlinks: true
+        disabledPackages: [
+          "language-go"
+          "language-clojure"
+          "language-c"
+          "linter"
+          "linter-erb"
+          "autocomplete-snippets"
+        ]
+        themes: [
+          "atom-dark-ui"
+          "monokai"
+        ]
+        audioBeep: false
+      "exception-reporting":
+        userId: "dad11c59-a9bc-7c23-ed96-c2728d70dda7"
+      welcome:
+        showOnStartup: false
+      "atom-beautify":
+        _analyticsUserId: "52560f63-fb40-4b23-8180-abe722752560"
+        ruby_rbeautify_path: "/Users/dancho/.rbenv/shims/rbeautify"
+      "project-manager":
+        environmentSpecificProjects: true
+      linter:
+        showErrorInline: true
+      emmet:
+        formatLineBreaks: false
+      "autocomplete-plus":
+        confirmCompletion: "enter"
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  linter: {}
+  "exception-reporting":
+    userId: "f920cc84-3d41-5032-3256-3b048191628a"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "linter-erb"
+    ]
+    audioBeep: false
+    excludeVcsIgnoredPaths: false
+    destroyEmptyPanes: false
+  editor:
+    invisibles: {}
+    fontSize: 12
+    showIndentGuide: true
+    softWrap: true
+    showInvisibles: true
+  "japanese-wrap":
+    characterWidth: {}
+  localization:
+    CurrentLanguage: "Japanese"
+  minimap: {}
+  "atom-color-highlight": {}
+  jumpy: {}
