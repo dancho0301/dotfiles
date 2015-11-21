@@ -58,21 +58,22 @@
     showOnStartup: false
   core:
     themes: [
-      "atom-material-ui"
+      "atom-dark-ui"
       "monokai"
     ]
     disabledPackages: [
       "linter-erb"
     ]
     audioBeep: false
-    excludeVcsIgnoredPaths: false
     destroyEmptyPanes: false
+    excludeVcsIgnoredPaths: false
   editor:
     invisibles: {}
-    fontSize: 12
+    fontSize: 13
     showIndentGuide: true
-    softWrap: true
     showInvisibles: true
+    fontFamily: "Migu 1M"
+    softWrapHangingIndent: 2
   "japanese-wrap":
     characterWidth: {}
   localization:
@@ -80,3 +81,5 @@
   minimap: {}
   "atom-color-highlight": {}
   jumpy: {}
+  "highlight-column":
+    lineMode: true

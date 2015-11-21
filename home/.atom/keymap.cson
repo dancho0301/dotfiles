@@ -34,3 +34,9 @@
 
 'atom-text-editor[data-grammar="text html basic"]:not([mini]), atom-text-editor[data-grammar~="jade"]:not([mini]), atom-text-editor[data-grammar~="css"]:not([mini]), atom-text-editor[data-grammar~="sass"]:not([mini])':
   'tab': 'editor:indent'
+
+'body':
+  'cmd-k cmd-|': 'pane:split-right'
+  'cmd-k cmd-right': 'unset!'
+  'cmd-k cmd-right': 'pane:split-right'
+  'cmd-k cmd-|': 'pane:split-right'
